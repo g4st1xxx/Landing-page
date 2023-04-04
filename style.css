@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    padding-top: 70px;
 }
 /**/
 .header {
@@ -9,6 +10,11 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 .header-links {
   display: flex;  
@@ -34,7 +40,7 @@ body {
     width: 500px;
     height: 320px;
     flex-wrap: wrap ;
-    margin: 50px 0px 50px 100px;
+    margin: 50px 0px 50px 160px;
 }
 .head-izq h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -63,7 +69,7 @@ body {
     border-radius: 2px;
     width: 450px;
     height: 270px;
-    margin: 0px 100px 70px 0px;
+    margin: 0px 160px 70px 0px;
 }
 /**/
 .seccion-imagenes {
@@ -173,3 +179,4 @@ body {
     font-family: sans-serif;
     color: #E5E7EB;
 }
+
